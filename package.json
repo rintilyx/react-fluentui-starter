@@ -1,9 +1,8 @@
 {
   "name": "react-fluentui-starter",
   "author": "Roberto Intilla",
-  "homepage": "",
-  "version": "0.1.0",
-  "private": true,
+  "homepage": "https://github.com/rintilyx/react-fluentui-starter",
+  "version": "1.0.0",
   "dependencies": {
     "@fluentui/react": "^8.30.3",
     "@fluentui/react-theme-provider": "^0.18.5",

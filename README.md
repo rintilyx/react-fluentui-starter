@@ -13,12 +13,12 @@ that comes with Fluent UI pre-installed and configured!
 
 ### Light Mode
 
-![image info](./assets/screenshots/light.png)
+![image info](./assets/screenshots/light.PNG)
 
 ### Dark Mode
 
-![image info](./assets/screenshots/dark.png)
+![image info](./assets/screenshots/dark.PNG)
 
 ### Sidenav
 
-![image info](./assets/screenshots/sidenav.png)
+![image info](./assets/screenshots/sidenav.PNG)

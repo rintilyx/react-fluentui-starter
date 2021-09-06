@@ -1,5 +1,4 @@
 import {Label} from "@fluentui/react";
-import {useEffect} from "react";
 
 function HomePage(props) {
 

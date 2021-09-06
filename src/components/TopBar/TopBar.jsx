@@ -123,7 +123,7 @@ function TopBarComponent(props) {
                         <IconButton styles={menuButtonStyles} iconProps={menuIcon} onClick={() => props.onChange('OpenMenu', true)} title="Menu" ariaLabel="Menu" />
                     </div>
                     <div className="ms-Grid-col ms-sm8" style={{ paddingTop: 6.5, marginLeft: '-5%', marginRight: '5%' }}>
-                        <Label style={{ color: theme.palette.themeLighterAlt }}>Black Hat - Utility Tool</Label>
+                        <Label style={{ color: theme.palette.themeLighterAlt }}>React FluentUI Starter</Label>
                     </div>
                     <div className="ms-Grid-col ms-sm3" style={{ paddingTop: 3 }} align="right">
                         <CommandButton styles={themeSelectorStyles} iconProps={colorIcon} text="Theme" menuProps={menuProps} />

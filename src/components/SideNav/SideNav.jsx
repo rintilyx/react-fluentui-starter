@@ -17,67 +17,30 @@ function SideNavComponent(props) {
         {
             links: [
                 {
-                    name: 'Dashboard',
-                    icon: 'GoToDashboard',
+                    name: 'HomePage',
+                    icon: 'Home',
+                    key: 'keyHome',
                     url: '/',
-                    key: 'keyDashboard',
                 },
                 {
-                    name: 'Events',
-                    icon: 'Mail',
-                    key: 'keyEvents',
-                    url: '/'
-                },
-                {
-                    name: 'Testing',
-                    icon: 'TestBeaker',
-                    key: 'keyTesting',
-                    expandAriaLabel: 'Expand Testing section',
-                    collapseAriaLabel: 'Collapse Testing section',
+                    name: 'Parent',
+                    key: 'keyParent',
+                    expandAriaLabel: 'Expand Parent section',
+                    collapseAriaLabel: 'Collapse Parent section',
                     links: [
                         {
-                            name: 'Scenarios',
+                            name: 'Child 1',
                             url: '/',
-                            key: 'keyScenarios',
+                            key: 'keyChild1',
                         },
                         {
-                            name: 'Execution',
+                            name: 'Child 2',
                             url: '/',
-                            key: 'keyExecution',
+                            key: 'keyChild2',
                         },
                     ],
                     isExpanded: false,
-                },
-                {
-                    name: 'Reference Data',
-                    key: 'keyReferenceData',
-                    icon: 'MasterDatabase',
-                    expandAriaLabel: 'Expand Reference Data section',
-                    collapseAriaLabel: 'Collapse Reference Data section',
-                    links: [
-                        {
-                            name: 'Location',
-                            url: '/',
-                            key: 'keyLocation',
-                        },
-                        {
-                            name: 'Supplier',
-                            url: '/',
-                            key: 'keySupplier',
-                        },
-                        {
-                            name: 'Product',
-                            url: '/',
-                            key: 'keyProduct',
-                        },
-                        {
-                            name: 'Supplier Catalog',
-                            url: '/',
-                            key: 'keySupplierCatalog',
-                        },
-                    ],
-                    isExpanded: false,
-                },
+                }
             ],
         },
     ];
